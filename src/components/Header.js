@@ -13,8 +13,10 @@ export default function Header({ onNavigate, current, setSidebarOpen }) {
     <header className="fixed top-0 inset-x-0 z-60 bg-white/80 backdrop-blur-sm border-b">
       <div className="container mx-auto px-6 py-3 flex items-center justify-between">
         <div className="flex items-center gap-4">
-        <img src="/Trinity_Logo_only_fixed.svg" alt="Trinity" className="w-16 h-auto object-contain"/>
-        <img src="/Trinity_text_only_fixed.svg" alt="Trinity" className="w-28 h-auto object-contain"/>
+       <a href="/" className="flex items-center gap-2"> 
+        <img src="/Trinity_Logo_only_fixed.svg" alt="ترينيتي" className="w-16 h-auto object-contain"/>
+        <img src="/Trinity_text_only_fixed.svg" alt="ترينيتيi" className="w-28 h-auto object-contain"/>
+        </a>
         </div>
 
         {/* Desktop nav */}
@@ -23,13 +25,13 @@ export default function Header({ onNavigate, current, setSidebarOpen }) {
             <button
               key={n.id}
               onClick={() => onNavigate(n.id)}
-              className={`py-2 px-3 rounded-md text-sm ${n.id === current ? "bg-amber-100 text-amber-800" : "text-gray-700 hover:bg-gray-100"}`}
+              className={`py-2 px-3 rounded-md text-sm ${n.id === current ? "bg-divine-100 text-divine-700" : "text-gray-700 hover:bg-gray-100"}`}
             >
               {n.label}
             </button>
           ))}
 
-          <button onClick={() => onNavigate("booking")} className="mr-3 bg-amber-600 text-white py-2 px-4 rounded-md shadow-sm">
+          <button onClick={() => onNavigate("booking")} className="mr-3 bg-divine text-divine-ivory py-2 px-4 rounded-md shadow-sm">
             احجز الآن
           </button>
         </nav>

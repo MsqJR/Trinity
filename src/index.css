@@ -2,3 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+:root {
+	--divine-red-50: #fbe9ea;
+	--divine-red-300: #e07a7a;
+	--divine-red: #9b1f1f; /* primary divine red */
+	--divine-red-700: #6e1515;
+	--divine-gold: #d8b04a;
+	--divine-ivory: #fff8ef;
+	--divine-olive: #4a4b2e;
+	--divine-shadow: rgba(155,31,31,0.14);
+}
+
+/* Theme wrapper that will be applied to the body */
+body.theme-divine-red {
+	background-color: var(--divine-ivory);
+	color: var(--divine-olive);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Primary controls and accents */
+.btn-primary, .primary {
+	background: linear-gradient(180deg, var(--divine-red), var(--divine-red-700));
+	color: var(--divine-ivory);
+	box-shadow: 0 8px 20px var(--divine-shadow);
+	border-radius: 6px;
+}
+
+.header-accent, header.theme-header {
+	border-top: 4px solid var(--divine-gold);
+}
+
+.icon-accent { color: var(--divine-gold); }
+.text-muted { color: rgba(74,75,46,0.8); }
+
+/* Small utility to tint monochrome SVGs used as masks */
+.tint-divine {
+	/* Useful when an SVG is drawn with currentColor or used as mask */
+	color: var(--divine-red);
+}
+

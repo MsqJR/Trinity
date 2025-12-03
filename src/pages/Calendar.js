@@ -7,7 +7,7 @@ export default function Calendar() {
   return (
     <section>
       <h2 className="text-2xl font-semibold mb-4">التقويم</h2>
-      <p className="text-gray-600 mb-6">
+      <p className="text-divine-olive mb-6">
         هنا يمكنك رؤية الأيام المحجوزة والمتاحة قبل تقديم طلب الحجز.
       </p>
 
@@ -17,10 +17,10 @@ export default function Calendar() {
           return (
             <div
               key={day}
-              className={`p-3 text-center rounded-md text-sm shadow-sm border ${
+              className={`p-3 text-center rounded-md text-sm shadow-sm border transition-colors ${
                 isReserved
-                  ? "bg-red-100 border-red-300 text-red-700"
-                  : "bg-green-100 border-green-300 text-green-700"
+                  ? "bg-divine-100 border-divine-300 text-divine-700"
+                  : "bg-divine-50 border-divine-gold text-divine-olive hover:bg-divine-300"
               }`}
             >
               {day}

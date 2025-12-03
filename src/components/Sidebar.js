@@ -23,15 +23,15 @@ export default function Sidebar({ open, setOpen, onNavigate }) {
 
         <nav className="p-4 flex flex-col gap-3">
           {nav.map((n) => (
-            <button key={n.id} onClick={() => onNavigate(n.id)} className="text-right flex items-center justify-between gap-3 p-3 rounded hover:bg-amber-50">
-              <span className="text-gray-700">{n.label}</span>
+            <button key={n.id} onClick={() => onNavigate(n.id)} className="text-right flex items-center justify-between gap-3 p-3 rounded hover:bg-divine-50 transition-colors">
+              <span className="text-divine-olive">{n.label}</span>
               <span className="text-xl">{n.icon}</span>
             </button>
           ))}
         </nav>
 
-        <div className="mt-auto p-4 border-t">
-          <button onClick={() => onNavigate("booking")} className="w-full bg-amber-600 text-white py-2 rounded">
+        <div className="mt-auto p-4 border-t-2 border-divine-gold">
+          <button onClick={() => onNavigate("booking")} className="w-full bg-divine text-divine-ivory py-2 rounded hover:shadow-lg transition-shadow">
             احجز خلوة
           </button>
         </div>
