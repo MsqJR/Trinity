@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero({ onNavigate }) {
   return (
-    <div className="rounded-xl overflow-hidden p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 bg-gradient-to-r from-divine-50 to-divine-ivory shadow-lg border-l-4 border-divine-gold">
+    <div className="rounded-xl overflow-hidden p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 bg-gradient-to-r from-divine-50 to-divine-ivory shadow-lg border-l-4 border-divine">
       <div className="flex-1 text-right">
         <h2 className="text-3xl md:text-4xl font-semibold text-divine-700">ابحث عن راحة لنفسك</h2>
         <p className="mt-4 text-divine-olive max-w-xl">

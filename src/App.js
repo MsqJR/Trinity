@@ -11,6 +11,7 @@ import Calendar from "./pages/Calendar";
 export default function App() {
   const [page, setPage] = useState("home");
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [selectedDates, setSelectedDates] = useState({ start: null, end: null });
 
   return (
     <div dir="rtl" className="min-h-screen bg-gradient-to-b from-amber-50 to-white text-gray-900 font-sans">
@@ -28,8 +29,8 @@ export default function App() {
         {page === "home" && <Home onNavigate={setPage} />}
         {page === "about" && <About />}
         {page === "facilities" && <Facilities onNavigate={setPage} />}
-        {page === "booking" && <Booking />}
-        {page === "calendar" && <Calendar />}
+        {page === "booking" && <Booking selectedDates={selectedDates} setSelectedDates={setSelectedDates} />}
+        {page === "calendar" && <Calendar onNavigate={setPage} selectedDates={selectedDates} setSelectedDates={setSelectedDates} />}
       </main>
 
       <Footer />
