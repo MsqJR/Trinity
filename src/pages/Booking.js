@@ -151,7 +151,6 @@ export default function Booking({ selectedDates, setSelectedDates }) {
           onChange={handleChange}
           className="p-3 border-2 border-divine-300 rounded focus:border-divine focus:outline-none"
         >
-          <option>خلوة فردية</option>
           <option>خلوة للخدام/الشباب</option>
           <option>مؤتمر/اجتماع كنسي</option>
         </select>

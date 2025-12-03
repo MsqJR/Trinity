@@ -5,7 +5,8 @@ export default function Sidebar({ open, setOpen, onNavigate }) {
     { id: "home", label: "الرئيسية", icon: "🏠" },
     { id: "about", label: "من نحن", icon: "ℹ️" },
     { id: "facilities", label: "المرافق", icon: "🏛️" },
-    { id: "booking", label: "الحجز", icon: "📅" },
+    { id: "booking", label: "الحجز", icon: "⌚" },
+    { id: "calendar", label: "جدول المؤتمرات", icon: "📅" },
   ];
 
   return (
@@ -16,7 +17,6 @@ export default function Sidebar({ open, setOpen, onNavigate }) {
         <div className="p-4 border-b flex items-center justify-between">
           <div>
             <h3 className="text-lg font-semibold">القائمة</h3>
-            <p className="text-sm text-gray-500">تصفح أقسام الموقع</p>
           </div>
           <button onClick={() => setOpen(false)} className="text-2xl leading-none">×</button>
         </div>

@@ -5,17 +5,17 @@ export default function Header({ onNavigate, current, setSidebarOpen }) {
     { id: "home", label: "الرئيسية" },
     { id: "about", label: "من نحن" },
     { id: "facilities", label: "المرافق" },
+    { id: "calendar", label: "جدول المؤتمرات" },
     { id: "booking", label: "الحجز" },
-    { id: "calendar", label: "التقويم" },
   ];
 
   return (
     <header className="fixed top-0 inset-x-0 z-60 bg-white/80 backdrop-blur-sm border-b">
       <div className="container mx-auto px-6 py-3 flex items-center justify-between">
         <div className="flex items-center gap-4">
-       <a href="/" className="flex items-center gap-2"> 
-        <img src="/Trinity_Logo_only_fixed.svg" alt="ترينيتي" className="w-16 h-auto object-contain"/>
-        <img src="/Trinity_text_only_fixed.svg" alt="ترينيتيi" className="w-28 h-auto object-contain"/>
+       <a href="/Trinity" className="flex items-center gap-2"> 
+        <img src="/Trinity/Trinity_Logo_only_fixed.svg" alt="ترينيتي" className="w-16 h-auto object-contain"/>
+        <img src="/Trinity/Trinity_text_only_fixed.svg" alt="ترينيتيi" className="w-28 h-auto object-contain"/>
         </a>
         </div>
 
