@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Trinity/static/css/main.f36bd2d8.css",
-    "main.js": "/Trinity/static/js/main.5a105a1d.js",
+    "main.js": "/Trinity/static/js/main.af523d11.js",
     "static/js/453.6f7ac361.chunk.js": "/Trinity/static/js/453.6f7ac361.chunk.js",
     "index.html": "/Trinity/index.html",
     "main.f36bd2d8.css.map": "/Trinity/static/css/main.f36bd2d8.css.map",
-    "main.5a105a1d.js.map": "/Trinity/static/js/main.5a105a1d.js.map",
+    "main.af523d11.js.map": "/Trinity/static/js/main.af523d11.js.map",
     "453.6f7ac361.chunk.js.map": "/Trinity/static/js/453.6f7ac361.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f36bd2d8.css",
-    "static/js/main.5a105a1d.js"
+    "static/js/main.af523d11.js"
   ]
 }
