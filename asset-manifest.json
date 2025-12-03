@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Trinity_skeleton/static/css/main.8491cfbb.css",
+    "main.js": "/Trinity_skeleton/static/js/main.4e56c5a5.js",
+    "static/js/453.6f7ac361.chunk.js": "/Trinity_skeleton/static/js/453.6f7ac361.chunk.js",
+    "index.html": "/Trinity_skeleton/index.html",
+    "main.8491cfbb.css.map": "/Trinity_skeleton/static/css/main.8491cfbb.css.map",
+    "main.4e56c5a5.js.map": "/Trinity_skeleton/static/js/main.4e56c5a5.js.map",
+    "453.6f7ac361.chunk.js.map": "/Trinity_skeleton/static/js/453.6f7ac361.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8491cfbb.css",
+    "static/js/main.4e56c5a5.js"
+  ]
+}
